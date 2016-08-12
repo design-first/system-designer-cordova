@@ -1,5 +1,20 @@
 # system-designer-cordova
-System Designer Cordova project
+System Designer Cordova project.
+
+## Installation
+
+You need to have installed [Cordova](http://cordova.apache.org) before.
+
+```sh
+# Clone this repository
+$ git clone https://github.com/system-sdk/system-designer-cordova.git
+# Go to the repository
+$ cd system-designer-cordova
+# Add iOS platform
+$ cordova platform add ios
+# Build System Designer for iOS
+$ cordova build ios
+```
 
 ## Licence
 
