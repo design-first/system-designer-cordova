@@ -3,7 +3,7 @@ System Designer Cordova project.
 
 ## Installation
 
-You need to have installed [Cordova](http://cordova.apache.org) before.
+You need to installed [Cordova](http://cordova.apache.org) before.
 
 ```sh
 # Clone this repository
