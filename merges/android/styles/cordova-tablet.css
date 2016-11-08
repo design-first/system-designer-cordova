@@ -30,8 +30,7 @@
 body,
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  min-width: 720px!important;
- /* margin-top:20px!important;*/
+  min-width: 650px!important;
 }
 
 html {
@@ -39,15 +38,7 @@ html {
 }
 
 body {
-  background-color: transparent!important;
-}
-
-#designer-editor { 
-   /*top:24px!important;*/
-}
-
-.sidebar {
-   /* margin-top: 20px;*/
+  background-color: transparent!important; 
 }
 
 #designer-dialog-import-modal-type-import {
@@ -58,8 +49,12 @@ body {
     display: none;
 }
 
-#designer-dialog-import-modal-from-library-form {
-  display: block!important;
+#designer-dialog-config-advanced-mode {
+    display: none;
+}
+
+#designer-dialog-import-modal-from-file-input {
+  display: none;
 }
 
 /* override */
