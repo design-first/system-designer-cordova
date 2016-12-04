@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ecarriou.systemdesignerios" version="1.8.6" android-versionCode="18600" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ecarriou.systemdesignerios" version="1.9.0" android-versionCode="19000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>System Designer</name>
     <description>
         System Designer, an IDE for designing applications driven by the model.
