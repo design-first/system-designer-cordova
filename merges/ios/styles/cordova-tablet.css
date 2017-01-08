@@ -38,47 +38,42 @@ html {
 }
 
 body {
-  background-color: transparent!important; 
-}
-
-#designer-dialog-import-modal-type-import {
-    display: none;
-}
-
-#designer-dialog-import-modal-from-file-form {
-    display: none;
-}
-
-#designer-dialog-config-advanced-mode {
-    display: none;
+  background-color: transparent!important;
 }
 
 #designer-dialog-import-modal-from-file-input {
   display: none;
 }
 
-/* override */
-.dropdown-menu-right .btn .glyphicon-remove {
-  top: 3px!important;
+#designer-dialog-import-modal-from-file-form {
+  display: none;
 }
 
-/* small screens */
-@media only screen
-  and (max-width : 650px)
-  and (orientation: landscape) {
+#designer-dialog-config-advanced-mode {
+    display: none;
+}
+
+span.glyphicon.glyphicon-menu-left {
+    color:#337ab7!important;
+}
+
+/* < iPhone 6 */
+@media only screen 
+  and (max-width : 600px)
+  and (orientation : landscape) {
 
     body {
         font-size: 12px!important;
     }
 
     .btn-group-lg>.btn, .btn-lg {
-        padding-top: 6px!important;
+        padding-top: 5px!important;
     }
 
     body,
     .navbar-fixed-top,
     .navbar-fixed-bottom {
-        min-width: 600px!important;
+    min-width: 600px!important;
     }
 
 }
