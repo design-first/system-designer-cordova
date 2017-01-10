@@ -30,7 +30,7 @@ $ cordova platform add android
 $ cordova build android
 ```
 
-## Licence
+## License
 
 Copyright 2017 Erwan Carriou
 
