@@ -80,5 +80,9 @@ body {
     .navbar-fixed-bottom {
         min-width: 600px!important;
     }
+    
+    .list-group.designer-library {
+        max-height:150px;
+    }
 
 }

@@ -73,7 +73,21 @@ span.glyphicon.glyphicon-menu-left {
     body,
     .navbar-fixed-top,
     .navbar-fixed-bottom {
-    min-width: 600px!important;
+        min-width: 600px!important;
     }
 
+    .list-group.designer-library {
+        max-height:150px;
+    }
+
+}
+
+/* iPhone 6 */
+@media only screen 
+    and (max-width : 667px) 
+    and (orientation : landscape) {
+
+        .list-group.designer-library {
+            max-height:150px;
+        }
 }
