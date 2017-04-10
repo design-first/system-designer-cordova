@@ -77,7 +77,7 @@ span.glyphicon.glyphicon-menu-left {
     }
 
     .list-group.designer-library {
-        max-height:150px;
+        max-height:100px!important;
     }
 
 }
