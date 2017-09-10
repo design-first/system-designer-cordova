@@ -1,0 +1,27 @@
+{
+  "name": "com.ecarriou.systemdesignerios",
+  "version": "2.0.0",
+  "displayName": "System Designer",
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-wkwebview-engine": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^6.2.3",
+    "cordova-browser": "^4.1.0",
+    "cordova-ios": "^4.4.0",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-statusbar": "^2.2.3",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "cordova-plugin-wkwebview-engine": "^1.1.3"
+  }
+}
