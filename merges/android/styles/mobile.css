@@ -76,7 +76,7 @@ body {
 
 /* small screens */
 @media only screen
-  and (max-width : 650px)
+  and (max-width : 750px)
   and (orientation: landscape) {
     body {
       font-size: 12px!important;

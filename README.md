@@ -1,5 +1,4 @@
-# system-designer-cordova
-System Designer for Cordova.
+# System Designer for Cordova
 
 ## Installation
 
