@@ -1,2 +1,6 @@
 *.log
 .DS_Store
+build.json
+platforms
+node_modules
+plugins/cordova*

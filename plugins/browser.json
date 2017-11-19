@@ -1,24 +1,24 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-        },
-        "cordova-plugin-wkwebview-engine": {
-            "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-        }
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "dependent_plugins": {}
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {}
 }
