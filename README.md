@@ -2,13 +2,10 @@
 
 ## Installation
 
-You need to install [Cordova](http://cordova.apache.org) before.
+You need to install [Cordova](http://cordova.apache.org) before. Then clone the repository:
 
 ```sh
-# Clone this repository
 $ git clone https://github.com/design-first/system-designer-cordova.git
-# Go to the repository
-$ cd system-designer-cordova
 ```
 
 ## Build for iOS
