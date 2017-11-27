@@ -4,7 +4,7 @@
     <description>
         System Designer, an IDE for designing systems.
     </description>
-    <author email="erwan.carriou@mac.com" href="https://system-designer.github.io">System Designer</author>
+    <author email="erwan.carriou@mac.com" href="https://designfirst.io/systemdesigner/">System Designer</author>
     <preference name="deployment-target" value="10.3" />
     <preference name="android-minSdkVersion" value="23" />
     <feature name="CDVWKWebViewEngine">
