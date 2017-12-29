@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-.designer-system-menu-export {
+ .designer-system-menu-export {
   display: none!important;
 }
 .designer-schema-menu-export {
@@ -70,7 +70,7 @@ span.glyphicon.glyphicon-menu-left {
   color:#337ab7!important;
 }
 
-/* < iPhone 6 */
+/* iPhone 5 / 5S / SE */
 @media only screen 
   and (max-width : 600px)
   and (orientation : landscape) {
@@ -91,9 +91,12 @@ span.glyphicon.glyphicon-menu-left {
     #designer-toolbar-item-search {
       display: none;
     }
+    #designer-toolbar-item-extension {
+      display: none;
+    }
 }
 
-/* iPhone 6 */
+/* iPhone 6 / 7 / 8 */
 @media only screen 
   and (max-width : 667px) 
   and (orientation : landscape) {
@@ -108,7 +111,7 @@ span.glyphicon.glyphicon-menu-left {
     }
 }
 
-/* iPhone 6+ / 7+ / ... */
+/* iPhone 6+ / 7+ / 8+ */
 @media only screen 
 and (max-width : 736px) 
 and (orientation : landscape) {
@@ -120,5 +123,18 @@ and (orientation : landscape) {
   }
   #designer-toolbar-item-extension {
     display: none;
+  }
+}
+
+/* iPhone X */
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) 
+and (orientation : landscape) { 
+  body,
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    width: 812px!important;
   }
 }
