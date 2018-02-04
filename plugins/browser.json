@@ -13,10 +13,10 @@
     "cordova-plugin-wkwebview-engine": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-inappbrowser": {
+    "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-statusbar": {
+    "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },

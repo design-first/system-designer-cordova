@@ -1,5 +1,6 @@
 *.log
 *.key
+*.keystore
 .DS_Store
 build.json
 platforms
