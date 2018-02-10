@@ -84,13 +84,11 @@ body {
     .btn-group-lg>.btn, .btn-lg {
       padding-top: 6px!important;
     }
-    body,
-    .navbar-fixed-top,
-    .navbar-fixed-bottom {
-      min-width: 600px!important;
+    .container {
+      padding-right: 70px!important;
     }
     .list-group.designer-library {
-      max-height:150px;
+      max-height:130px!important;
     }
     #designer-toolbar-item-search {
       display: none;

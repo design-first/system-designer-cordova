@@ -72,21 +72,19 @@ span.glyphicon.glyphicon-menu-left {
 
 /* iPhone 5 / 5S / SE */
 @media only screen 
-  and (max-width : 600px)
-  and (orientation : landscape) {
+  and (max-width: 600px)
+  and (orientation: landscape) {
     body {
       font-size: 12px!important;
     }
     .btn-group-lg>.btn, .btn-lg {
       padding-top: 5px!important;
     }
-    body,
-    .navbar-fixed-top,
-    .navbar-fixed-bottom {
-      min-width: 600px!important;
+    .container {
+      padding-right: 70px!important;
     }
     .list-group.designer-library {
-        max-height:100px!important;
+      max-height:100px!important;
     }
     #designer-toolbar-item-search {
       display: none;
@@ -101,7 +99,7 @@ span.glyphicon.glyphicon-menu-left {
   and (max-width : 667px) 
   and (orientation : landscape) {
     .list-group.designer-library {
-      max-height:150px;
+      max-height:130px;
     }
     #designer-toolbar-item-search {
       display: none;
