@@ -21,7 +21,7 @@
 {
 	"name": "system-designer",
 	"master": true,
-	"version": "2.3.0",
+	"version": "2.3.1",
 	"description": "A Designer for Systems",
 	"schemas": {
 		"104ad1f48518376": {
@@ -1128,7 +1128,7 @@
 				"type": "string",
 				"readOnly": false,
 				"mandatory": false,
-				"default": "2.3.0"
+				"default": "2.3.1"
 			},
 			"runWindow": {
 				"type": "object",
@@ -4988,7 +4988,7 @@
 				"_id": "designer",
 				"debugWindow": null,
 				"runWindow": null,
-				"version": "2.3.0"
+				"version": "2.3.1"
 			}
 		},
 		"Export": {
@@ -5308,7 +5308,7 @@
 			},
 			"menu-action-version.html": {
 				"_id": "menu-action-version.html",
-				"source": "<a>v2.3.0</a>"
+				"source": "<a>v2.3.1</a>"
 			},
 			"menu-header-behavior.html": {
 				"_id": "menu-header-behavior.html",
