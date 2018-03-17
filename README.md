@@ -1,7 +1,5 @@
 # System Designer for Cordova
 
-[![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://en.liberapay.com/ecarriou/donate)
-
 ## Installation
 
 You need to install [Cordova](http://cordova.apache.org) before. Then clone the repository:
