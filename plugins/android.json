@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-    },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
@@ -17,6 +14,9 @@
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
     "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
+    },
+    "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     }
   },
