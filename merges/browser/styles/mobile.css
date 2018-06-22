@@ -62,9 +62,6 @@ body {
 #designer-dialog-import-modal-from-file-form {
   display: none;
 }
-#designer-dialog-config-advanced-mode {
-  display: none;
-}
 span.glyphicon.glyphicon-menu-left {
   color:#337ab7!important;
 }
