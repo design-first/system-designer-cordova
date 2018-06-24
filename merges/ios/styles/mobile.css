@@ -67,6 +67,12 @@ span.glyphicon.glyphicon-menu-left {
   color:#337ab7!important;
 }
 
+.CodeMirror-gutter-wrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 /* iPhone 5 / 5S / SE */
 @media only screen 
   and (max-width: 600px)

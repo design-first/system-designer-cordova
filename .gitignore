@@ -6,4 +6,3 @@ build.json
 platforms
 node_modules
 plugins/cordova*
-package-lock.json

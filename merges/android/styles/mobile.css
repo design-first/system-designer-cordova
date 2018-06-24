@@ -66,6 +66,12 @@ body {
   display: none;
 }
 
+.CodeMirror-gutter-wrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 /* override */
 .dropdown-menu-right .btn .glyphicon-remove {
   top: 3px!important;
