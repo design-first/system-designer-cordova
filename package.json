@@ -1,6 +1,6 @@
 {
   "name": "com.ecarriou.systemdesignerios",
-  "version": "2.8.4",
+  "version": "2.9.0",
   "displayName": "System Designer",
   "cordova": {
     "platforms": [
