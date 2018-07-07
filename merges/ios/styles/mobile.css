@@ -95,6 +95,10 @@ span.glyphicon.glyphicon-menu-left {
     #designer-toolbar-item-extension {
       display: none;
     }
+    .log-number {
+      position: absolute;
+      right: -20px;
+    }
 }
 
 /* iPhone 6 / 7 / 8 */
@@ -109,6 +113,10 @@ span.glyphicon.glyphicon-menu-left {
     }
     #designer-toolbar-item-extension {
       display: none;
+    }
+    .log-number {
+      position: absolute;
+      right: -20px;
     }
 }
 

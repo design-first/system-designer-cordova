@@ -99,6 +99,10 @@ body {
     #designer-toolbar-item-extension {
       display: none;
     }
+    .log-number {
+      position: absolute;
+      right: -20px;
+    }
 }
 
 /* Phablet */
