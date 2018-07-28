@@ -7,16 +7,16 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-    },
-    "cordova-plugin-wkwebview-engine": {
+    "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
-    "cordova-plugin-inappbrowser": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
+    },
+    "cordova-plugin-wkwebview-engine": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     }
   },
