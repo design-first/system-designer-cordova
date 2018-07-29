@@ -21,22 +21,6 @@
  .designer-system-menu-export {
   display: none!important;
 }
-.designer-schema-menu-export {
-  display: none!important;
-}
-.designer-model-menu-export {
-  display: none!important;
-}
-.designer-type-menu-export {
-  display: none!important;
-}
-.designer-component-menu-export {
-  display: none!important;
-}
-.designer-behavior-menu-export {
-  display: none!important;
-}
-
 #designer-dialog-config-client-type-debugging {
   display: none!important;
 }
@@ -92,6 +76,9 @@ span.glyphicon.glyphicon-menu-left {
     #designer-toolbar-item-search {
       display: none;
     }
+    #designer-toolbar-item-command {
+      display: none;
+    }
     #designer-toolbar-item-extension {
       display: none;
     }
@@ -109,6 +96,9 @@ span.glyphicon.glyphicon-menu-left {
       max-height:130px;
     }
     #designer-toolbar-item-search {
+      display: none;
+    }
+    #designer-toolbar-item-command {
       display: none;
     }
     #designer-toolbar-item-extension {
@@ -130,6 +120,9 @@ and (orientation : landscape) {
   #designer-toolbar-item-search {
     display: none;
   }
+  #designer-toolbar-item-command {
+    display: none;
+  }
   #designer-toolbar-item-extension {
     display: none;
   }
@@ -145,5 +138,8 @@ and (orientation : landscape) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     width: 812px!important;
+  }
+  #designer-toolbar-item-command {
+    display: none;
   }
 }

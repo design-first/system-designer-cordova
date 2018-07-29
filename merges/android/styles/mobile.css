@@ -21,21 +21,6 @@
 .designer-system-menu-export {
   display: none!important;
 }
-.designer-schema-menu-export {
-  display: none!important;
-}
-.designer-model-menu-export {
-  display: none!important;
-}
-.designer-type-menu-export {
-  display: none!important;
-}
-.designer-component-menu-export {
-  display: none!important;
-}
-.designer-behavior-menu-export {
-  display: none!important;
-}
 #designer-dialog-config-client-type-debugging {
   display: none!important;
 }
@@ -96,6 +81,9 @@ body {
     #designer-toolbar-item-search {
       display: none;
     }
+    #designer-toolbar-item-command {
+      display: none;
+    }
     #designer-toolbar-item-extension {
       display: none;
     }
@@ -110,6 +98,9 @@ body {
 and (max-width : 1000px) 
 and (orientation : landscape) {
   #designer-toolbar-item-extension {
+    display: none;
+  }
+  #designer-toolbar-item-command {
     display: none;
   }
 }
