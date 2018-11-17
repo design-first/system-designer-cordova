@@ -25,7 +25,7 @@ cordova platform add ios
 Build System Designer for iOS:
 
 ```sh
-$ cordova build ios
+cordova build ios
 ```
 
 ## Build for Android
@@ -39,7 +39,7 @@ cordova platform add android
 Build System Designer for Android:
 
 ```sh
-$ cordova build android
+cordova build android
 ```
 
 ## License
