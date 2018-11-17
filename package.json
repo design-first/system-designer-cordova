@@ -4,9 +4,9 @@
   "displayName": "System Designer",
   "cordova": {
     "platforms": [
-      "ios",
       "browser",
-      "android"
+      "android",
+      "ios"
     ],
     "plugins": {
       "cordova-plugin-whitelist": {},
