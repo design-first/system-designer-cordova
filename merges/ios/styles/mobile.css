@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
- .designer-system-menu-export {
+.designer-system-menu-export {
   display: none!important;
 }
 #designer-dialog-config-client-type-debugging {
@@ -86,7 +86,7 @@ span.glyphicon.glyphicon-menu-left {
       position: absolute;
       right: -20px;
     }
-}
+  }
 
 /* iPhone 6 / 7 / 8 */
 @media only screen 
@@ -108,38 +108,70 @@ span.glyphicon.glyphicon-menu-left {
       position: absolute;
       right: -20px;
     }
-}
+  }
 
 /* iPhone 6+ / 7+ / 8+ */
 @media only screen 
-and (max-width : 736px) 
-and (orientation : landscape) {
-  .list-group.designer-library {
-    max-height:150px;
+  and (max-width : 736px) 
+  and (orientation : landscape) {
+    .list-group.designer-library {
+      max-height:150px;
+    }
+    #designer-toolbar-item-search {
+      display: none;
+    }
+    #designer-toolbar-item-command {
+      display: none;
+    }
+    #designer-toolbar-item-extension {
+      display: none;
+    }
   }
-  #designer-toolbar-item-search {
-    display: none;
-  }
-  #designer-toolbar-item-command {
-    display: none;
-  }
-  #designer-toolbar-item-extension {
-    display: none;
-  }
-}
 
-/* iPhone X */
+/* iPhone X, iPhone XS */
 @media only screen 
-and (device-width : 375px) 
-and (device-height : 812px) 
-and (-webkit-device-pixel-ratio : 3) 
-and (orientation : landscape) { 
-  body,
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    width: 812px!important;
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) 
+  and (orientation : landscape) { 
+    body,
+    .navbar-fixed-top,
+    .navbar-fixed-bottom {
+      width: 812px!important;
+    }
+    #designer-toolbar-item-command {
+      display: none;
+    }
   }
-  #designer-toolbar-item-command {
-    display: none;
+
+/* iPhone XR */
+@media only screen 
+  and (device-width : 414px) 
+  and (device-height : 896px) 
+  and (-webkit-device-pixel-ratio : 2) 
+  and (orientation : landscape) {
+    body,
+    .navbar-fixed-top,
+    .navbar-fixed-bottom {
+      width: 896px!important;
+    }
+    #designer-toolbar-item-command {
+      display: none;
+    } 
   }
-}
+
+/* iPhone XS Max */
+@media only screen 
+  and (device-width : 414px) 
+  and (device-height : 896px) 
+  and (-webkit-device-pixel-ratio : 3)
+  and (orientation : landscape) {
+    body,
+    .navbar-fixed-top,
+    .navbar-fixed-bottom {
+      width: 896px!important;
+    }
+    #designer-toolbar-item-command {
+      display: none;
+    } 
+  }

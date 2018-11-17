@@ -2,27 +2,43 @@
 
 ## Installation
 
-You need to install [Cordova](http://cordova.apache.org) before. Then clone the repository:
+You need to install [Cordova](http://cordova.apache.org) before: 
 
 ```sh
-$ git clone https://github.com/design-first/system-designer-cordova.git
+npm i -g cordova
+```
+
+Then clone the repository:
+
+```sh
+git clone https://github.com/design-first/system-designer-cordova.git
 ```
 
 ## Build for iOS
 
+Add iOS platform:
+
 ```sh
-# Add iOS platform
-$ cordova platform add ios
-# Build System Designer for iOS
+cordova platform add ios
+```
+
+Build System Designer for iOS:
+
+```sh
 $ cordova build ios
 ```
 
 ## Build for Android
 
+Add Android platform:
+
 ```sh
-# Add Android platform
-$ cordova platform add android
-# Build System Designer for Android
+cordova platform add android
+```
+
+Build System Designer for Android:
+
+```sh
 $ cordova build android
 ```
 

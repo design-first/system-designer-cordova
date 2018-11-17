@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-/**  back **/
+/** back **/
 function systemDesignerBack() {
   var mess = typeof messages !== 'undefined' ? messages : runtime.require('state').messages(),
     ref = typeof lastPage !== 'undefined' ? lastPage : runtime.require('state').lastPage();

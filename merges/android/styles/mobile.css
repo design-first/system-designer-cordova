@@ -91,16 +91,16 @@ body {
       position: absolute;
       right: -20px;
     }
-}
+  }
 
 /* Phablet */
 @media only screen 
-and (max-width : 1000px) 
-and (orientation : landscape) {
-  #designer-toolbar-item-extension {
-    display: none;
+  and (max-width : 1000px) 
+  and (orientation : landscape) {
+    #designer-toolbar-item-extension {
+      display: none;
+    }
+    #designer-toolbar-item-command {
+      display: none;
+    }
   }
-  #designer-toolbar-item-command {
-    display: none;
-  }
-}
