@@ -19,8 +19,30 @@
  */
 
 document.addEventListener('deviceready', onDeviceReady, false);
+
 function onDeviceReady() {
   StatusBar.hide();
+
+  // fix an issue with iOS 12 (@see https://github.com/apache/cordova-ios/issues/417#issuecomment-466520675)
+  function ios12NotchFix(is_ios, keyboard_plugin_exists) {
+    if (!is_ios || device.model.indexOf("iPhone") === -1) return false;
+    if (!keyboard_plugin_exists) throw new Error("This fix depends on 'cordova-plugin-keyboard'!");
+    const iphone_number = Number(device.model.replace("iPhone", "").replace(",", "."));
+    const /* viewport metatag */
+      viewport_el = document.getElementsByName("viewport")[0],
+      default_content = "user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1";
+
+    if (iphone_number >= 10.6 || iphone_number === 10.3) { /* devices with notch: X, XR, ... */
+      setCover();
+
+      window.addEventListener('keyboardWillShow', setFix);
+      window.addEventListener('keyboardWillHide', setCover);
+    }
+    function setCover() { viewport_el.content = default_content + ", viewport-fit=cover"; }
+    function setFix() { viewport_el.content = default_content; }
+  }
+
+  ios12NotchFix(device.platform === "iOS", typeof Keyboard !== "undefined");
 }
 
 document.addEventListener('menubutton', onMenuButton, false);

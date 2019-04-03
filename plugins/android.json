@@ -10,13 +10,19 @@
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
+    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
     "cordova-plugin-wkwebview-engine": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     },
-    "cordova-plugin-statusbar": {
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
+    },
+    "cordova-plugin-device": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     }
   },

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="33200" id="com.ecarriou.systemdesignerios" version="3.3.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="34000" id="com.ecarriou.systemdesignerios" version="3.4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>System Designer</name>
     <description>
         System Designer, an IDE for designing systems.
@@ -39,7 +39,4 @@
     <plugin name="cordova-plugin-wkwebview-engine" spec="^1.1.4" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
-    <engine name="browser" spec="6.0.0" />
-    <engine name="ios" spec="5.0.0" />
-    <engine name="android" spec="7.1.4" />
 </widget>
