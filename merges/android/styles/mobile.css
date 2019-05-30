@@ -41,15 +41,6 @@ html {
 body {
   background-color: transparent!important; 
 }
-#designer-dialog-import-modal-type-import {
-  display: none;
-}
-#designer-dialog-import-modal-from-file-form {
-  display: none;
-}
-#designer-dialog-import-modal-from-file-input {
-  display: none;
-}
 
 .CodeMirror-gutter-wrapper {
   -webkit-user-select: none;

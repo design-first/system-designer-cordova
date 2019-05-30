@@ -1,12 +1,17 @@
 {
   "name": "com.ecarriou.systemdesignerios",
   "version": "3.4.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/design-first/system-designer-cordova.git"
+  },
   "displayName": "System Designer",
   "cordova": {
     "platforms": [
       "android",
-      "ios",
-      "browser"
+      "browser",
+      "ios"
     ],
     "plugins": {
       "cordova-plugin-whitelist": {},
@@ -18,7 +23,7 @@
   "dependencies": {
     "cordova-android": "8.0.0",
     "cordova-browser": "6.0.0",
-    "cordova-ios": "5.0.0",
+    "cordova-ios": "5.0.1",
     "cordova-plugin-inappbrowser": "3.0.0",
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-whitelist": "1.3.3",
