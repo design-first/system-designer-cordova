@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" manifest="system-designer.appcache">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="An IDE for designing systems">
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover' name='viewport' />
+  <link rel="manifest" href="manifest.json">
   <title>System Designer</title>
   <!-- bootstrap -->
   <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -74,6 +75,8 @@
   <script src="lib/designer/vendor.js"></script>
   <!-- designer -->
   <script type="text/javascript" src="scripts/system-designer.js"></script>
+
+  <script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("./cache.js");</script>
 </body>
 
 </html>
