@@ -83,7 +83,23 @@ span.glyphicon.glyphicon-menu-left {
 @media only screen 
   and (max-width : 667px) {
     .list-group.designer-library {
-      max-height:130px;
+      max-height:90;
+    }
+    #designer-dialog-import-file-modal .modal-body {
+      padding-bottom: 0;
+    }
+    #designer-dialog-import-file-modal .modal-footer {
+      padding-top: 0;
+    }
+    #designer-dialog-import-modal-from-file-form,
+    #designer-dialog-import-file-modal-well {
+      margin-bottom: 0;
+    }
+    #designer-dialog-sync-modal .modal-body {
+      padding-bottom: 0;
+    }
+    #designer-dialog-sync-modal .modal-footer {
+      padding-top: 0;
     }
     #designer-toolbar-item-search {
       display: none;
