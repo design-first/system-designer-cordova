@@ -18,6 +18,9 @@
     },
     "cordova-plugin-wkwebview-engine": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-wkkeyboardfix": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {}

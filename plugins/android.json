@@ -18,6 +18,9 @@
     },
     "cordova-plugin-wkwebview-engine": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
+    },
+    "cordova-plugin-wkkeyboardfix": {
+      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     }
   },
   "dependent_plugins": {}
