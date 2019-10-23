@@ -93,7 +93,7 @@ span.glyphicon.glyphicon-menu-left {
   and (max-width : 667px) 
   and (orientation : landscape) {
     .list-group.designer-library {
-      max-height:90;
+      max-height: 90px;
     }
     #designer-dialog-import-file-modal .modal-body {
       padding-bottom: 0;
@@ -127,7 +127,7 @@ span.glyphicon.glyphicon-menu-left {
   and (max-width : 736px) 
   and (orientation : landscape) {
     .list-group.designer-library {
-      max-height:150px;
+      max-height: 90px;
     }
     #designer-toolbar-item-search {
       display: none;
@@ -151,7 +151,16 @@ span.glyphicon.glyphicon-menu-left {
     .navbar-fixed-bottom {
       width: 812px!important;
     }
+    .list-group.designer-library {
+      max-height: 90px;
+    }
+    #designer-toolbar-item-search {
+      display: none;
+    }
     #designer-toolbar-item-command {
+      display: none;
+    }
+    #designer-toolbar-item-extension {
       display: none;
     }
   }
@@ -167,9 +176,18 @@ span.glyphicon.glyphicon-menu-left {
     .navbar-fixed-bottom {
       width: 896px!important;
     }
+    .list-group.designer-library {
+      max-height: 90px;
+    }
+    #designer-toolbar-item-search {
+      display: none;
+    }
     #designer-toolbar-item-command {
       display: none;
-    } 
+    }
+    #designer-toolbar-item-extension {
+      display: none;
+    }
   }
 
 /* iPhone XS Max */
