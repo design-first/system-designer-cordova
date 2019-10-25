@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="41100" id="com.ecarriou.systemdesignerios" version="4.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="42000" id="com.ecarriou.systemdesignerios" version="4.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>System Designer</name>
     <description>
-        System Designer, an IDE for designing systems.
+        System Designer, an IDE for designing JavaScript systems.
     </description>
     <author email="erwan.carriou@mac.com" href="https://designfirst.io/systemdesigner/">System Designer</author>
     <preference name="deployment-target" value="10.3" />
