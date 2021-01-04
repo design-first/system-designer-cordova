@@ -15,9 +15,6 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
-    },
-    "cordova-plugin-wkwebview-engine": {
-      "PACKAGE_NAME": "com.ecarriou.systemdesignerios"
     }
   },
   "dependent_plugins": {}

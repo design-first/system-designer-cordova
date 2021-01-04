@@ -13,9 +13,6 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-wkwebview-engine": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
