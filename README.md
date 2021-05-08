@@ -8,6 +8,12 @@ Clone the repository:
 git clone https://github.com/design-first/system-designer-cordova.git
 ```
 
+Once you have cloned the repository, install the dependencies:
+
+```sh
+npm i
+```	 	
+
 ## Build for iOS
 
 Add iOS platform:
