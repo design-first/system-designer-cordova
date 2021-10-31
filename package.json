@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "cordova": "10.0.0",
-    "cordova-android": "10.0.0",
+    "cordova-android": "10.1.1",
     "cordova-browser": "6.0.0",
     "cordova-icon": "1.0.0",
     "cordova-ios": "6.2.0",
