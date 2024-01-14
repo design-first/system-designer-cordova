@@ -2,15 +2,14 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
     xmlns:cdv="http://cordova.apache.org/ns/1.0"
     id="com.ecarriou.systemdesignerios"
-    version="5.3.0"
-    android-versionCode="51000">
+    version="5.3.0">
    <name>System Designer</name>
     <description>
         A low-code development platform for creating systems
     </description>
 
     <content src="index.html" />
-    <icon src="icon-ios.png" />
+    <icon src="icon.png" />
 
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="local" />
