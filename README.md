@@ -16,6 +16,12 @@ npm i
 
 ## Build for iOS
 
+Install [CocoaPods](https://cocoapods.org):
+
+```sh
+brew install cocoapods
+```
+
 Add iOS platform:
 
 ```sh
