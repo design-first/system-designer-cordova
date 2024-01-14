@@ -1,38 +1,28 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="53000" id="com.ecarriou.systemdesignerios" version="5.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>System Designer</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="com.ecarriou.systemdesignerios"
+    version="5.3.0"
+    android-versionCode="51000">
+   <name>System Designer</name>
     <description>
         A low-code development platform for creating systems
     </description>
-    <author email="erwan.carriou@mac.com" href="https://designfirst.io/systemdesigner/">System Designer</author>
-    <preference name="deployment-target" value="13.4" />
-    <preference name="android-minSdkVersion" value="23" />
-    <feature name="CDVWKWebViewEngine">
-        <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature>
-    <feature name="StatusBar">
-        <param name="ios-package" onload="true" value="CDVStatusBar" />
-    </feature>
-    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
-    <preference name="orientation" value="landscape" />
+
+    <content src="index.html" />
+    <icon src="icon-ios.png" />
+
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="local" />
     <preference name="SplashScreenDelay" value="0" />
     <preference name="FadeSplashScreenDuration" value="500" />
-    <content src="index.html" />
+
+    <!-- Security Related Settings -->
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
-    </platform>
-    <platform name="android">
-        <preference name="Fullscreen" value="false" />
-    </platform>
+
+    <!-- Platform Configs & Platform Overriding Configs -->
+    <platform name="android"></platform>
+    <platform name="ios"></platform>
 </widget>
