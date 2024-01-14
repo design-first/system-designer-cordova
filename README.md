@@ -44,7 +44,7 @@ npx cordova build android
 
 ## License
 
-Copyright 2022 Erwan Carriou
+Copyright 2024 Erwan Carriou
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
