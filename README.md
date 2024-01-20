@@ -34,6 +34,12 @@ Build System Designer for iOS:
 npx cordova build ios
 ```
 
+Run System Designer for iOS:
+
+```sh
+ npx cordova run ios
+```
+
 ## Build for Android
 
 Add Android platform:
@@ -46,6 +52,20 @@ Build System Designer for Android:
 
 ```sh
 npx cordova build android
+```
+
+## Build for Browser
+
+Add Browser platform:
+
+```sh
+npx cordova platform add browser
+```
+
+Run System Designer for Browser:
+
+```sh
+npx cordova run browser
 ```
 
 ## License
