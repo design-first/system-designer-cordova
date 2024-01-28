@@ -61,7 +61,7 @@ span.glyphicon.glyphicon-menu-left {
   right: -20px;
 }
 
-/* iPhone 5 / 5S / SE */
+/* 4" physical screen size */
 @media only screen 
   and (max-width: 600px)
   and (orientation: landscape) {
@@ -88,7 +88,7 @@ span.glyphicon.glyphicon-menu-left {
     }
   }
 
-/* iPhone 6 / 7 / 8 */
+/* 4.7" physical screen size */
 @media only screen 
   and (max-width : 667px) 
   and (orientation : landscape) {
@@ -122,7 +122,7 @@ span.glyphicon.glyphicon-menu-left {
     }
   }
 
-/* iPhone 6+ / 7+ / 8+ */
+/* 5.5" physical screen size */
 @media only screen 
   and (max-width : 736px) 
   and (orientation : landscape) {
@@ -140,7 +140,7 @@ span.glyphicon.glyphicon-menu-left {
     }
   }
 
-/* iPhone X, iPhone XS */
+/* 5.8" physical screen size */
 @media only screen 
   and (device-width : 375px) 
   and (device-height : 812px) 
@@ -165,7 +165,7 @@ span.glyphicon.glyphicon-menu-left {
     }
   }
 
-/* iPhone XR */
+/* 6.1" physical screen size */
 @media only screen 
   and (device-width : 414px) 
   and (device-height : 896px) 
@@ -190,7 +190,7 @@ span.glyphicon.glyphicon-menu-left {
     }
   }
 
-/* iPhone XS Max */
+/* 6.5" physical screen size */
 @media only screen 
   and (device-width : 414px) 
   and (device-height : 896px) 
@@ -203,5 +203,25 @@ span.glyphicon.glyphicon-menu-left {
     }
     #designer-toolbar-item-command {
       display: none;
-    } 
+    }
+    #designer-toolbar-item-extension {
+      display: none;
+    }
+  }
+
+/* 6.7" physical screen size */
+@media only screen 
+  and (device-width : 430px)
+  and (device-height : 932px) 
+  and (-webkit-device-pixel-ratio : 3)
+  and (orientation : landscape) {
+    .list-group.designer-library {
+      max-height: 90px;
+    }
+    #designer-toolbar-item-command {
+      display: none;
+    }
+    #designer-toolbar-item-extension {
+      display: none;
+    }
   }
