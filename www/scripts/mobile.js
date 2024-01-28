@@ -18,12 +18,6 @@
  * limitations under the License.
  */
 
-document.addEventListener('deviceready', onDeviceReady, false)
-
-function onDeviceReady() {
-  StatusBar.hide()
-}
-
 document.addEventListener('menubutton', onMenuButton, false)
 function onMenuButton() {
   if (document.location.href.indexOf('/app/') !== -1) {
