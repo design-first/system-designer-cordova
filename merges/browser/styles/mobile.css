@@ -38,7 +38,9 @@ html {
 body {
   background-color: transparent!important;
 }
-span.glyphicon.glyphicon-menu-left {
+
+span.glyphicon.glyphicon-menu-left,
+span.glyphicon.glyphicon-menu-right {
   color:#337ab7!important;
 }
 

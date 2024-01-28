@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
     xmlns:cdv="http://cordova.apache.org/ns/1.0"
     id="com.ecarriou.systemdesignerios"
-    version="5.3.2">
+    version="5.4.0">
    <name>System Designer</name>
     <description>
         A low-code development platform for creating systems
